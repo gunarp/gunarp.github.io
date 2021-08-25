@@ -24,5 +24,13 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "static",
+        path: "./static/",
+      },
+      __key: "static",
+    },
   ],
 };
