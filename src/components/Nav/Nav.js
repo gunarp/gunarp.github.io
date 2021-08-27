@@ -11,6 +11,9 @@ const Nav = () => {
           <S.NavLink to={item.url}>{item.title}</S.NavLink>
         </S.NavItem>
       ))}
+      <S.NavItem key={"Resume"}>
+        <S.ResumeLink href="Gunarso_Resume.pdf">Resume</S.ResumeLink>
+      </S.NavItem>
     </S.Nav>
   )
 }

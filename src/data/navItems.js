@@ -7,10 +7,6 @@ const navItems = {
     title: 'Projects',
     url: '/projects',
   },
-  resume: {
-    title: 'Resume',
-    url: '/resume',
-  },
 }
 
 const secondaryNavItems = {

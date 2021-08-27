@@ -47,3 +47,20 @@ export const NavLink = styled(Link)`
     margin-left: 8px;
   }
 `
+
+export const ResumeLink = styled.a`
+  href: ${(props) => props.href};
+  padding: 10px;
+  font-size: 17px;
+  font-weight: ${Type.fontWeights.medium};
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+
+  @media(max-width: ${Breakpoints.mobile}) {
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+`
