@@ -40,5 +40,17 @@ module.exports = {
       },
       __key: "content",
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'gatsby-default-mdx-basic',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#663399',
+        theme_color: '#663399',
+        display: 'minimal-ui',
+        icon: 'src/images/icon.png' 
+      }
+    },
   ],
 };

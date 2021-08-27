@@ -1,6 +1,7 @@
 import React from 'react';
 
 import * as S from './styles';
+import headshot from '../../images/headshot.jpg';
 
 const Blurb = () => {
   return (
@@ -11,7 +12,7 @@ const Blurb = () => {
         <div><S.P>yeehaw</S.P></div>
         </S.LeftCol>
         <S.RightCol>
-          <S.Headshot src="../images/headshot.jpg"/>
+          <S.Headshot src={headshot}/>
         </S.RightCol>
       </S.ContentWrap>
     </S.Blurb>
