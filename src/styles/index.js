@@ -1,6 +1,0 @@
-export * as Breakpoints from './Breakpoints'
-export * as Colors from './Colors'
-export * as Type from './Type'
-export * as ZIndex from './Zindex'
-export * as Sizes from './Sizes'
-export * as Mixins from './Mixins'
