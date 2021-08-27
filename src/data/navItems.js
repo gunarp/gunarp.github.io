@@ -1,6 +1,4 @@
-import { Colors } from '../styles'
-
-export default {
+const navItems = {
   about: {
     title: 'About',
     url: '/about',
@@ -26,4 +24,5 @@ const secondaryNavItems = {
   },
 }
 
+export default navItems;
 export { secondaryNavItems }

@@ -4,6 +4,8 @@ import { Breakpoints, Colors } from '../../styles'
 
 export const Blurb = styled.div`
   float: center;
+  margin-top: 10vh;
+  height: 30vh;
   position: relative;
   align-items: center;
   padding: 100px 0 160px 0;

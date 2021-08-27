@@ -1,6 +1,9 @@
 import React from 'react';
+import { Header, Footer } from '../components';
 import { GlobalStyle } from '../styles/Global';
 import { GlobalType } from '../styles/Type';
+
+import * as S from './style'
 
 const Default = props => {
   return (
@@ -8,7 +11,11 @@ const Default = props => {
       <title>{props.pageTitle}</title>
       <GlobalStyle />
       <GlobalType />
-      {props.children}
+      <S.Wrap>
+        <Header />
+        {props.children}
+        <Footer />
+      </S.Wrap>
     </main>  
   )
 }
