@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.25)  26 AUG 2021 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.25)  27 AUG 2021 11:57
 entering extended mode
 **c:/Users/redba/Desktop/site/project-site/static/Resume/Gunarso_Resume.tex
 (c:/Users/redba/Desktop/site/project-site/static/Resume/Gunarso_Resume.tex
@@ -381,26 +381,26 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not a
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 135.
+(Font)              using `OT1/cmr/bx/n' instead on input line 136.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 139.
+(Font)              <10.95> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 139.
+(Font)              <8> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 139.
+(Font)              <6> on input line 140.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 197--199
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 198--200
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 207--209
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 208--210
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 217--219
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 218--220
 []  
  []
 
@@ -427,9 +427,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,11n,67p,366b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}<C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Gunarso_Resume.pdf (1 page, 148718 bytes).
+Output written on Gunarso_Resume.pdf (1 page, 149211 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

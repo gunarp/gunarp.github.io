@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1630039668 "c:/Users/redba/Desktop/site/project-site/static/Resume/Gunarso_Resume.tex" "Gunarso_Resume.pdf" "Gunarso_Resume" 1630039813
+["pdflatex"] 1630090619 "c:/Users/redba/Desktop/site/project-site/static/Resume/Gunarso_Resume.tex" "Gunarso_Resume.pdf" "Gunarso_Resume" 1630090621
   "C:/Users/redba/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1627200568 9728723 9cf513c9d1201aaa5e85305a49f63153 ""
   "C:/Users/redba/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1629671177 82039 32c00b46ec68f3ddea0147d75839907f ""
   "C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1585059804 2911 7adff171bd8c0a41152be2ab1520c87f ""
@@ -104,12 +104,12 @@
   "C:/Users/redba/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1622550326 7147 5ac8a9ef36411064b1a501137af0fa54 ""
   "C:/Users/redba/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1622550326 7392 39729ae6a807e217edf1442cf8fab2c2 ""
   "C:/Users/redba/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Gunarso_Resume.aux" 1630039669 1425 ad7bee56a85e98037d7cde00e36c7108 "pdflatex"
-  "Gunarso_Resume.out" 1630039669 649 fa6b446465858ae0ecefa6263224d394 "pdflatex"
-  "Gunarso_Resume.tex" 1630039794 9374 f05a55cf842599608eb76538de578295 ""
-  "c:/Users/redba/Desktop/site/project-site/static/Resume/Gunarso_Resume.tex" 1630039794 9374 f05a55cf842599608eb76538de578295 ""
+  "Gunarso_Resume.aux" 1630090621 1425 ad7bee56a85e98037d7cde00e36c7108 "pdflatex"
+  "Gunarso_Resume.out" 1630090621 649 fa6b446465858ae0ecefa6263224d394 "pdflatex"
+  "Gunarso_Resume.tex" 1630090618 9481 f4b3550424da131632e3ae60c468610f ""
+  "c:/Users/redba/Desktop/site/project-site/static/Resume/Gunarso_Resume.tex" 1630090618 9481 f4b3550424da131632e3ae60c468610f ""
   (generated)
   "Gunarso_Resume.aux"
-  "Gunarso_Resume.log"
   "Gunarso_Resume.pdf"
+  "Gunarso_Resume.log"
   "Gunarso_Resume.out"
