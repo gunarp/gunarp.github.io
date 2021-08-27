@@ -2,21 +2,25 @@ import React from 'react';
 import { Header, Footer } from '../components';
 import { GlobalStyle } from '../styles/Global';
 import { GlobalType } from '../styles/Type';
+import { MDXProvider } from '@mdx-js/react';
+import components from '../components/mdxComponents';
 
 import * as S from './style'
 
 const Default = props => {
   return (
-    <main>
+    <>
       <title>{props.pageTitle}</title>
       <GlobalStyle />
       <GlobalType />
       <S.Wrap>
-        <Header />
-        {props.children}
-        <Footer />
+        <MDXProvider components={components}>
+          <Header />
+            {props.children}
+          <Footer />
+        </MDXProvider>
       </S.Wrap>
-    </main>  
+    </>  
   )
 }
 

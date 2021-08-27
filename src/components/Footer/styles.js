@@ -8,6 +8,7 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: center;
   margin-top: auto;
+  margin-bottom: 5px;
 `
 export const Credits = styled.div`
   p {

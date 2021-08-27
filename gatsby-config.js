@@ -32,5 +32,13 @@ module.exports = {
       },
       __key: "static",
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "content",
+        path: "./src/content/",
+      },
+      __key: "content",
+    },
   ],
 };
