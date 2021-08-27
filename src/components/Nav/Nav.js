@@ -12,7 +12,7 @@ const Nav = () => {
         </S.NavItem>
       ))}
       <S.NavItem key={"Resume"}>
-        <S.ResumeLink href="/Resume/Gunarso_Resume.pdf">Resume</S.ResumeLink>
+        <S.ResumeLink href="Resume/Gunarso_Resume.pdf">Resume</S.ResumeLink>
       </S.NavItem>
     </S.Nav>
   )
