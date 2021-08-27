@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkproject_site=self.webpackChunkproject_site||[]).push([[682],{5518:function(e,t,n){n.r(t);var u=n(7294),c=n(8563),r=n(2620);t.default=function(){return u.createElement(r.Z,{pageTitle:"About"},u.createElement(c.CL,null))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-77a6d4bef6da26ff0070.js.map
