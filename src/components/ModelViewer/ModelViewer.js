@@ -11,7 +11,7 @@ const ModelViewer = () => {
         height: 85vh;
       }
     `}</style>
-    <model-viewer camera-controls alt="A 3D model of an astronaut" src="/Astronaut.glb"></model-viewer>
+    <model-viewer camera-controls disable-zoom alt="A 3D model of an astronaut" environment-image="neutral" poster="/poster.jpg" src="/tpose.glb"></model-viewer>
   </S.ModelViewerContainer>
   );
 }
