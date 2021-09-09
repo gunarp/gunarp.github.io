@@ -5,11 +5,12 @@ import { Breakpoints, Colors } from '../../styles'
 export const Blurb = styled.div`
   float: center;
   margin-top: 10vh;
-  height: 30vh;
+  height: 100%;
   position: relative;
   align-items: center;
   padding: 100px 0 160px 0;
   overflow: hidden;
+  display: inline-flex;
 `
 
 export const H1 = styled.h1`
@@ -25,6 +26,7 @@ export const ContentWrap = styled.div`
   display: flex;
   margin: 0 0 70px 0;
   flex-direction: column;
+  align-items: center;
   
   @media(min-width: ${Breakpoints.w980}) {
     flex-direction: row;
@@ -38,7 +40,8 @@ export const LeftCol = styled.div`
   margin: 30px;
   display: block;
 
-  @media(min-width: ${Breakpoints.mobile}) {
+  @media(max-width: ${Breakpoints.mobile}) {
+    width: auto;
     margin-top: 0;
     flex-shrink: 1;
   }
@@ -50,7 +53,8 @@ export const RightCol = styled.div`
   margin: 10px;
   display: flex;
   
-  @media(min-width: ${Breakpoints.mobile}) {
+  @media(max-width: ${Breakpoints.mobile}) {
+    width: auto;
     margin-top: 0;
     flex-shrink: 1;
   }
