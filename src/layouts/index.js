@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Footer } from '../components';
+import { Header, Footer, Seo } from '../components';
 import { GlobalStyle } from '../styles/Global';
 import { GlobalType } from '../styles/Type';
 import { MDXProvider } from '@mdx-js/react';
@@ -11,6 +11,7 @@ const Default = props => {
   return (
     <>
       <title>{props.pageTitle}</title>
+      <Seo />
       <GlobalStyle />
       <GlobalType />
       <S.Wrap>

@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "project-site",
+    siteUrl: "https://peter.gunar.so",
+    title: "Peter Gunarso",
+    description: "Personal website of Peter Gunarso",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -9,6 +10,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-styled-components",
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-filesystem",
       options: {
