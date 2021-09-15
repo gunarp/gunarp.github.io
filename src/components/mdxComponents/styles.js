@@ -1,10 +1,14 @@
 import styled from 'styled-components'
-import { OutboundLink } from 'gatsby-plugin-google-gtag'
+import { Link } from 'gatsby'
 
 import { Breakpoints, Colors, Mixins, Type } from '../../styles'
 
-export const A = styled(OutboundLink)`
+export const A = styled.a`
   text-decoration: underline;
+  color: ${Colors.text};
+`
+
+export const StyledLink = styled(Link)`
   color: ${Colors.text};
 `
 
