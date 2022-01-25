@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkproject_site=self.webpackChunkproject_site||[]).push([[678],{7704:function(e,t,n){n.r(t);var r=n(7294),u=n(4512),c=n(8);t.default=function(){return r.createElement(c.Z,{pageTitle:"Peter Gunarso"},r.createElement(u.Z,null))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-f8576ff6c07316ec01cd.js.map
