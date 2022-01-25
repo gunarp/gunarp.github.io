@@ -5,7 +5,7 @@ import Layout from "../layouts"
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Peter Gunarso">
+    <Layout pageTitle="😁">
       <Home />
     </Layout>
   )
