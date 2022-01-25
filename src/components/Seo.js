@@ -3,12 +3,11 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
-const SEO = ({ description, lang, meta, keywords, title, siteUrl }) => {
+const SEO = ({ description, lang, meta, keywords, title }) => {
   return (
     <StaticQuery
       query={detailsQuery}
       render={data => {
-        const {siteUrl} = data.site.siteMetadata
         const metaDescription = 
           description || data.site.siteMetadata.description
         const metaTitle = title || data.site.siteMetadata.title
