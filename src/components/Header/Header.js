@@ -1,7 +1,7 @@
 import React from 'react';
 
 import * as S from './styles';
-import {Nav, SecondaryNav, Width} from '../';
+import {Nav, Width} from '../';
 
 const Header = () => {
   return (
@@ -12,7 +12,6 @@ const Header = () => {
             <S.Wordmark to="/">Peter Gunarso</S.Wordmark>
             <Nav/>
           </S.MainNav>
-          <SecondaryNav />
         </S.Header>
       </Width>
     </S.Background>  

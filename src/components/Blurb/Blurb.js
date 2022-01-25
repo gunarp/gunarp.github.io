@@ -1,18 +1,25 @@
 import React from 'react';
 
 import * as S from './styles';
-import headshot from '../../images/headshot.jpg';
+import { StaticImage } from 'gatsby-plugin-image'
+
+import BlurbText from '../../content/blurb.mdx';
 
 const Blurb = () => {
   return (
     <S.Blurb>
       <S.ContentWrap>
         <S.LeftCol>
-        <div><S.H1>Hi! I'm Peter, software engineer and technology lover.</S.H1></div>
-        <div><S.P>yeehaw</S.P></div>
+          <BlurbText />
         </S.LeftCol>
         <S.RightCol>
-          <S.Headshot src={headshot}/>
+          <StaticImage 
+            src = "../../images/headshot.webp"
+            alt = "Peter Gunarso smiling in front of the Ballard Locks"
+            placeholder = "blurred"
+            layout = "constrained"
+            imgStyle = {{ borderRadius: "50%" }}
+          />
         </S.RightCol>
       </S.ContentWrap>
     </S.Blurb>

@@ -35,7 +35,7 @@ export const Ol = styled.ol`
 export const P = styled.p`
   ${Mixins.articleMaxWidth};
   font-size: 16px;
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
   color: ${Colors.text};
 
   @media (min-width: ${Breakpoints.mobile}) {
