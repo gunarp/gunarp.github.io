@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.25)  5 OCT 2021 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.25)  23 MAY 2022 23:14
 entering extended mode
-**c:/Users/redba/Desktop/site/project-site/static/Resume/Gunarso_Resume.tex
-(c:/Users/redba/Desktop/site/project-site/static/Resume/Gunarso_Resume.tex
+**c:/Users/redba/Desktop/project-site/static/Resume/Gunarso_Resume.tex
+(c:/Users/redba/Desktop/project-site/static/Resume/Gunarso_Resume.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-07-12> (C:\Users\redba\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -381,21 +381,21 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not a
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 136.
+(Font)              using `OT1/cmr/bx/n' instead on input line 135.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 140.
+(Font)              <10.95> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 140.
+(Font)              <8> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 140.
+(Font)              <6> on input line 139.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 207--209
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 185--187
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 217--219
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 194--196
 []  
  []
 
@@ -411,20 +411,20 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Gunarso_Resume.out' has not changed.
-(rerunfilecheck)             Checksum: FA6B446465858AE0ECEFA6263224D394;649.
+(rerunfilecheck)             Checksum: 815B2E82D9DFC348CE676923DAA5CA8B;531.
  ) 
 Here is how much of TeX's memory you used:
- 13102 strings out of 478870
- 221054 string characters out of 2848836
- 556696 words of memory out of 3000000
- 30851 multiletter control sequences out of 15000+600000
+ 13100 strings out of 478870
+ 220989 string characters out of 2848836
+ 555696 words of memory out of 3000000
+ 30850 multiletter control sequences out of 15000+600000
  410559 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,67p,366b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,67p,361b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}<C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/redba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Gunarso_Resume.pdf (1 page, 140859 bytes).
+Output written on Gunarso_Resume.pdf (1 page, 140005 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

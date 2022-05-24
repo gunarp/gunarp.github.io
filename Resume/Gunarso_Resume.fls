@@ -1,6 +1,6 @@
-PWD c:\Users\redba\Desktop\site\project-site\static\Resume
+PWD c:\Users\redba\Desktop\project-site\static\Resume
 INPUT C:\Users\redba\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\redba\Desktop\site\project-site\static\Resume\Gunarso_Resume.tex
+INPUT c:\Users\redba\Desktop\project-site\static\Resume\Gunarso_Resume.tex
 OUTPUT Gunarso_Resume.log
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
