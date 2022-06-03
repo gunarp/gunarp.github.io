@@ -44,7 +44,7 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
 \addtolength{\topmargin}{-.7in}
@@ -67,29 +67,23 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[1]{
-  \item\small{
+  \item{
     {#1 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textbf{#1} & \textbf{ #2} \\
+      \textit{#3} & \textit{ #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
+      \textit{#1} & \textit{ #2} \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -128,7 +122,6 @@
     \href{https://www.linkedin.com/in/pgunarso/}{\raisebox{-0.2\height}\faLinkedin\ \underline{www.linkedin.com/in/pgunarso/}}  ~
     \href{https://github.com/gunarp}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/gunarp}} ~
     \href{http://peter.gunar.so}{\raisebox{-0.2\height}\faInternetExplorer\ \underline{peter.gunar.so}}
-    \vspace{-8pt}
 \end{center}
 
 %-----------EXPERIENCE-----------
@@ -143,6 +136,19 @@
     \resumeItemListEnd
 
     \resumeSubheading
+    {Underwater Remotely Operated Vehicles (UWROV)}{Jan 2019 -- December 2021}
+    {Software Lead}{Seattle, WA}
+    \resumeItemListStart
+    \resumeItem{Led team of 11 students to design, test, and document software components
+    of an ROV which competed in the 2021 international MATE ROV competition.}
+    \resumeItem{Implemented subroutines to enable ROV to interact with the physical
+    world using motors, sensors, and manipulators.}
+    \resumeItem{Designed training materials for new members to learn basics of ROS,
+    circuitry, and computer vision.}
+    \resumeItem{Assisted in managing club organization, finances, and scheduling.}
+    \resumeItemListEnd
+
+    \resumeSubheading
     {University of Washington}{September 2021 -- December 2021}
     {Teaching Assitant for CSE 461 (Intro to Networks)}{Seattle, WA}
     \resumeItemListStart
@@ -152,26 +158,13 @@
     \resumeItemListEnd
 
     \resumeSubheading
-    {Underwater Remotely Operated Vehicles (UWROV)}{Jan 2019 -- November 2021}
-    {Software Lead}{Seattle, WA}
-    \resumeItemListStart
-      \resumeItem{Led team of 11 students to design, test, and document software components
-                  of an ROV which competed in the 2021 international MATE ROV competition.}
-      \resumeItem{Implemented subroutines to enable ROV to interact with the physical
-                  world using motors, sensors, and manipulators.}
-      \resumeItem{Designed training materials for new members to learn basics of ROS,
-                  circuitry, and computer vision.}
-      \resumeItem{Assisted in managing club organization, finances, and scheduling.}
-    \resumeItemListEnd
-
-    \resumeSubheading
       {Nordstrom Tech}{June 2021 -- August 2021}
       {Software Engineer Intern}{Seattle, WA}
       \resumeItemListStart
         \resumeItem{Supported the enterprise authentication team which enables 70k+ employees
                     and external vendors to securley and conveniently access Nordstrom applications and resources.}
-        \resumeItem{Created a set of dashboards which visualize key authentication data using JavaScript, Python, and Splunk.}
-        \resumeItem{Created and deployed a CronJob which automatically suspends inactive users using Java, Docker, and Kubernetes.}
+        \resumeItem{Created a set of dashboards to visualize key authentication data using JavaScript, Python, and Splunk.}
+        \resumeItem{Created and deployed a CronJob to automatically suspend inactive accounts using Java, Docker, and Kubernetes.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 \vspace{-16pt}
@@ -184,16 +177,16 @@
         {\textbf{MATE ROV 2021 Machine Learning Challenge} $|$
               \emph{Azure, Python, JavaScript}}{April 2021 - June 2021}
         \resumeItemListStart
-          \resumeItem{Led team of 4 to create series of computer vision algorithms to recognize,
-                      categorize, and record sightings of fish in a given video.}
-          \resumeItem{Created an Electron app which sent a video to an server hosted on Azure for analysis.}
+          \resumeItem{Led team of 4 to create and train a series of object detection algorithms to categorize and record fish.}
+          \resumeItem{Created an accompanying Electron app where users could upload videos to our Azure-based
+                      machine learning service and view the results.}
           \resumeItem{Placed 3rd internationally in the MATE ROV 2021 Machine Learning Challenge.}
         \resumeItemListEnd
         \vspace{-13pt}
       \resumeProjectHeading
           {\textbf{ImPosture} $|$ \emph{JavaScript, React, PoseNet}}{October 2020}
           \resumeItemListStart
-            \resumeItem{Created a free, React based app meant to help users improve their posture
+            \resumeItem{React based app meant to help users improve their posture
                         while sitting at their desk during quarantine.}
             \resumeItem{Used the TensorFlow JavaScript PoseNet model, which used a camera
                         stream to determine a user's pose entirely through the user's web browser.}
@@ -211,38 +204,5 @@
     \resumeSubSubheading
       {Minor in Applied Mathematics}{}
   \resumeSubHeadingListEnd
-
-%------RELEVANT COURSEWORK-------
-\section{Relevant Coursework}
-    %\resumeSubHeadingListStart
-        \begin{multicols}{4}
-            \begin{itemize}[itemsep=-5pt, parsep=3pt]
-                \item Data Structures
-                \item Algorithms
-                \item Database Management
-                \item Distributed Systems
-                \item Operating Systems
-                \item Networks
-                \item Machine Learning
-                \item Datacenter Systems
-            \end{itemize}
-        \end{multicols}
-        \vspace*{2.0\multicolsep}
-    %\resumeSubHeadingListEnd
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, Java, C/C++, JavaScript, SQL, \LaTeX} \\
-     \textbf{Developer Tools}{: VS Code, IntelliJ, AWS, Docker, Kubernetes, Git, JUnit} \\
-     \textbf{Technologies/Frameworks}{: Pandas, Numpy, Unix, OpenCV, ROS, FreeRTOS, OAuth, OIDC} \\
-     \textbf{Skills}{: Algorithm Design, System Design, Computer Vision, Data Analysis, Leadership, Verbal and Written Communication}\\
-    }}
- \end{itemize}
- \vspace{-16pt}
-
 
 \end{document}
