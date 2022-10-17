@@ -20,6 +20,7 @@
 \usepackage{tabularx}
 \usepackage{fontawesome5}
 \usepackage{multicol}
+\usepackage{geometry}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
@@ -44,11 +45,7 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.4in}
+\geometry{margin=0.5in}
 
 \urlstyle{same}
 
@@ -118,7 +115,7 @@
 
 \begin{center}
     {\Huge \scshape Peter Gunarso} \\ \vspace{5pt}
-    \small \raisebox{-0.1\height}\faPhone\ 425-442-9443 ~ \href{mailto:peter@gunar.so}{\raisebox{-0.2\height}\faEnvelope\  \underline{peter@gunar.so}} ~
+    \small \href{mailto:peter@gunar.so}{\raisebox{-0.2\height}\faEnvelope\  \underline{peter@gunar.so}} ~
     \href{https://www.linkedin.com/in/pgunarso/}{\raisebox{-0.2\height}\faLinkedin\ \underline{www.linkedin.com/in/pgunarso/}}  ~
     \href{https://github.com/gunarp}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/gunarp}} ~
     \href{http://peter.gunar.so}{\raisebox{-0.2\height}\faInternetExplorer\ \underline{peter.gunar.so}}
@@ -131,7 +128,7 @@
     {Microsoft}{Februrary 2022 -- Present}
     {Software Engineer 1}{Redmond, WA}
     \resumeItemListStart
-      \resumeItem{Design and devleop new features for Windows Bluetooth Audio, used by millions of devices worldwide.}
+      \resumeItem{Design, develop, and debug features for Windows Bluetooth Audio, used on millions of PCs worldwide.}
       \resumeItem{Interact with customers and partners to refine Bluetooth experience.}
     \resumeItemListEnd
 
