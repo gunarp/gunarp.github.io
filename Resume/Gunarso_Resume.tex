@@ -45,7 +45,7 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\geometry{margin=0.5in}
+\geometry{margin=0.65in}
 
 \urlstyle{same}
 
@@ -55,23 +55,24 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{2pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{2pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[1]{
-  \item{
-    {#1 \vspace{-2pt}}
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{0pt}}
   }
 }
 
+
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  \vspace{0pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textbf{ #2} \\
       \textit{#3} & \textit{ #4} \\
     \end{tabular*}\vspace{-7pt}
@@ -86,17 +87,17 @@
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & \textbf{\small #2}\\
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
-\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+% \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -114,92 +115,120 @@
 % \end{tabular*}
 
 \begin{center}
-    {\Huge \scshape Peter Gunarso} \\ \vspace{5pt}
-    \small \href{mailto:peter@gunar.so}{\raisebox{-0.2\height}\faEnvelope\  \underline{peter@gunar.so}} ~
-    \href{https://www.linkedin.com/in/pgunarso/}{\raisebox{-0.2\height}\faLinkedin\ \underline{www.linkedin.com/in/pgunarso/}}  ~
-    \href{https://github.com/gunarp}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/gunarp}} ~
-    \href{http://peter.gunar.so}{\raisebox{-0.2\height}\faInternetExplorer\ \underline{peter.gunar.so}}
+  {\Huge \scshape Peter Gunarso} \\ \vspace{10pt}
+  \small
+  \faGlobe\ \underline{Redmond, WA} ~
+  \href{mailto:peter.gunarso@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{peter.gunarso@gmail.com}} ~
+  \href{https://www.linkedin.com/in/pgunarso/}{\raisebox{-0.2\height}\faLinkedin\ \underline{www.linkedin.com/in/pgunarso/}}  ~
+  \href{https://github.com/gunarp}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/gunarp}} ~
+  % \href{http://peter.gunar.so}{\raisebox{-0.2\height}\faInternetExplorer\ \underline{peter.gunar.so}}
 \end{center}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-    {Microsoft}{Februrary 2022 -- Present}
-    {Software Engineer 1}{Redmond, WA}
-    \resumeItemListStart
-      \resumeItem{Design, develop, and debug features for Windows Bluetooth Audio, used on millions of PCs worldwide.}
-      \resumeItem{Interact with customers and partners to refine Bluetooth experience.}
-    \resumeItemListEnd
+\resumeSubHeadingListStart
 
-    \resumeSubheading
-    {Underwater Remotely Operated Vehicles (UWROV)}{Jan 2019 -- December 2021}
-    {Software Lead}{Seattle, WA}
-    \resumeItemListStart
-    \resumeItem{Led team of 11 students to design, test, and document software components
-    of an ROV which competed in the 2021 international MATE ROV competition.}
-    \resumeItem{Implemented subroutines to enable ROV to interact with the physical
-    world using motors, sensors, and manipulators.}
-    \resumeItem{Designed training materials for new members to learn basics of ROS,
-    circuitry, and computer vision.}
-    \resumeItem{Assisted in managing club organization, finances, and scheduling.}
-    \resumeItemListEnd
+\resumeSubheading
+{Microsoft}{February 2022 -- Present}
+{Software Engineer I - II (Bluetooth Platform)}{Redmond, WA}
+\resumeItemListStart
+\resumeItem{Bluetooth LE Audio}{Implemented new Bluetooth LE Audio features in Windows, deploying to millions of PCs worldwide.
+  Worked on user-mode drivers for call controls, media controls, and unicast streaming.}
+\resumeItem{OS Integration}{Integrated new Bluetooth LE audio features into Windows OS.
+  Contributed to and maintained OS services to apply Windows policies to Bluetooth devices.
+  Mostly dealing with device management and presentation to user.}
+\resumeItem{Fuzz Testing}{Identified and fixed memory safety issues in Windows Bluetooth stack through authoring and maintaining libfuzzer and syzkaller based fuzz tests.}
+\resumeItem{Test Automation}{Improved Bluetooth LE Audio quality through implementing complementary LE services for end-to-end functional testing.}
+\resumeItem{AI Assistant - Bluetooth Classic Integration}{Protytped AI assistant integration with Windows Bluetooth Classic controls.}
+\resumeItem{AI knowledgebase - Bluetooth Specifications}{Protyped MCP server to provide Bluetooth specification domain knowledge to AI assistants.}
+\resumeItemListEnd
 
-    \resumeSubheading
-    {University of Washington}{September 2021 -- December 2021}
-    {Teaching Assitant for CSE 461 (Intro to Networks)}{Seattle, WA}
-    \resumeItemListStart
-        \resumeItem{Coordinated with course staff to ensure course was well-organized and well-presented.}
-        \resumeItem{Held office hours to provide assistance and feedback to students working on homework and projects.}
-        \resumeItem{Led teaching sections to go over key concepts of Networking.}
-    \resumeItemListEnd
+\resumeSubheading
+{University of Washington}{September 2021 -- December 2021}
+{Teaching Assistant}{Seattle, WA}
+\resumeItemListStart
+\resumeItem{TA for Intro to Networks}{Prepared and taught curriculum for foundations of Networks, leading weekly quiz sections and office hours.}
+\resumeItem{Curriculum}{TCP/IP, HTTP, DNS, SDN}
+\resumeItemListEnd
 
-    \resumeSubheading
-      {Nordstrom Tech}{June 2021 -- August 2021}
-      {Software Engineer Intern}{Seattle, WA}
-      \resumeItemListStart
-        \resumeItem{Supported the enterprise authentication team which enables 70k+ employees
-                    and external vendors to securley and conveniently access Nordstrom applications and resources.}
-        \resumeItem{Created a set of dashboards to visualize key authentication data using JavaScript, Python, and Splunk.}
-        \resumeItem{Created and deployed a CronJob to automatically suspend inactive accounts using Java, Docker, and Kubernetes.}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
+\resumeSubheading
+{Nordstrom Tech}{June 2021 -- August 2021}
+{Software Engineer Intern - Enterprise Single Sign On (SSO)}{Seattle, WA}
+\resumeItemListStart
+\resumeItem{Data Visualization}{Created dashboards to monitor employee authentication events.}
+\resumeItem{Security Automation}{Created and deployed cron job to suspend hundreds of inactive accounts for automated security hygiene.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 \vspace{-16pt}
 
-%-----------PROJECTS-----------
-\section{Projects}
-    \vspace{-5pt}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-        {\textbf{MATE ROV 2021 Machine Learning Challenge} $|$
-              \emph{Azure, Python, JavaScript}}{April 2021 - June 2021}
-        \resumeItemListStart
-          \resumeItem{Led team of 4 to create and train a series of object detection algorithms to categorize and record fish.}
-          \resumeItem{Created an accompanying Electron app where users could upload videos to our Azure-based
-                      machine learning service and view the results.}
-          \resumeItem{Placed 3rd internationally in the MATE ROV 2021 Machine Learning Challenge.}
-        \resumeItemListEnd
-        \vspace{-13pt}
-      \resumeProjectHeading
-          {\textbf{ImPosture} $|$ \emph{JavaScript, React, PoseNet}}{October 2020}
-          \resumeItemListStart
-            \resumeItem{React based app meant to help users improve their posture
-                        while sitting at their desk during quarantine.}
-            \resumeItem{Used the TensorFlow JavaScript PoseNet model, which used a camera
-                        stream to determine a user's pose entirely through the user's web browser.}
-            \resumeItem{Used React and Node.js to build core functionality in both front and back ends.}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-\vspace{-16pt}
+%-----------SKILLS-----------
+% \section{Skills}
+% \resumeItemListStart
+% \resumeItem{Languages}{Proficient: C++,}
+% \resumeItem{Technologies}{Git, Linux, Windows, Azure, Docker, Kubernetes, Fuzzing (libfuzzer, syzkaller), Bluetooth, REST APIs, Machine Learning}
+% \resumeItem{Interests}{Game Development, 3D Printing, Fitness, Running, Photography}
+% \resumeItemListEnd
+% \vspace{-16pt}
+
 
 %-----------EDUCATION-----------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of Washington}{Sep. 2018 -- Dec. 2021}
-      {Bachelor of Science in Computer Engineering, GPA: 3.71}{Seattle, WA}
-    \resumeSubSubheading
-      {Minor in Applied Mathematics}{}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Washington}{Sep. 2018 -- Dec. 2021}
+{Bachelor of Science in Computer Engineering, GPA: 3.71}{Seattle, WA}
+\vspace{-2pt}
+\resumeSubSubheading
+{Minor in Applied Mathematics}{}
+{}{}
+
+\vspace{5pt}
+
+\resumeSubheading
+{Underwater Remotely Operated Vehicles (UWROV)}{Jan 2019 -- December 2021}
+{Software Lead}{Seattle, WA}
+\resumeItemListStart
+\resumeItem{Leadership}{Led team of 11 students to design, test, and document software components
+  of an ROV which competed in the 2021 international MATE ROV competition.}
+\resumeItem{Administration}{Assisted in managing club organization, finances, and scheduling.}
+\resumeItem{MATE ROV 2021 Machine Learning Challenge}{Led team of 4 to create fish detection app for use over clips collected from Coral City Camera live stream.
+  Placed 3rd internationally.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Hobbies / Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Game Development}{Participated in and am looking to participate in more game jams.
+  \href{https://sunnbursts.itch.io/elevator-elevator}{(Game 1)}
+  \href{https://sunnbursts.itch.io/retro-reloop}{(Game 2)}}
+\resumeSubItem{Photobooth}{Bring \href{https://github.com/gunarp/photobooth/tree/dev}{photobooth setup} (camera, backdrop, tablet) to friends' and family's events.}
+\resumeSubItem{Personal Non-Technical Achievements}{Ran a half marathon. Deadlifted 315 lbs.}
+\resumeSubHeadingListEnd
+
+% \section{Projects}
+%     \vspace{-5pt}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%         {\textbf{MATE ROV 2021 Machine Learning Challenge} $|$
+%               \emph{Azure, Python, JavaScript}}{April 2021 - June 2021}
+%         \resumeItemListStart
+%           \resumeItem{Led team of 4 to create and train a series of object detection algorithms to categorize and record fish.}
+%           \resumeItem{Created an accompanying Electron app where users could upload videos to our Azure-based
+%                       machine learning service and view the results.}
+%           \resumeItem{Placed 3rd internationally in the MATE ROV 2021 Machine Learning Challenge.}
+%         \resumeItemListEnd
+%         \vspace{-13pt}
+%       \resumeProjectHeading
+%           {\textbf{ImPosture} $|$ \emph{JavaScript, React, PoseNet}}{October 2020}
+%           \resumeItemListStart
+%             \resumeItem{React based app meant to help users improve their posture
+%                         while sitting at their desk during quarantine.}
+%             \resumeItem{Used the TensorFlow JavaScript PoseNet model, which used a camera
+%                         stream to determine a user's pose entirely through the user's web browser.}
+%             \resumeItem{Used React and Node.js to build core functionality in both front and back ends.}
+%           \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+% \vspace{-16pt}
 
 \end{document}

@@ -1,6 +1,6 @@
-PWD c:\Users\redba\Desktop\project-site\static\Resume
+PWD x:\gunarp.github.io\static\Resume
 INPUT C:\Users\redba\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\redba\Desktop\project-site\static\Resume\Gunarso_Resume.tex
+INPUT x:\gunarp.github.io\static\Resume\Gunarso_Resume.tex
 OUTPUT Gunarso_Resume.log
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -656,13 +656,12 @@ INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Users\redba\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT C:\Users\redba\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free1.enc
+INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands0.enc
 INPUT Gunarso_Resume.aux
 INPUT .\Gunarso_Resume.out
 INPUT .\Gunarso_Resume.out
-INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands0.enc
-INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free1.enc
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
@@ -675,8 +674,6 @@ INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\redba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
